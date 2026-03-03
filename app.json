@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "MyApp2",
-    "slug": "MyApp2",
+    "name": "2a-inventory",
+    "slug": "2a-inventory",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp2",
+    "scheme": "2a-inventory",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
