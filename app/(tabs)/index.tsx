@@ -19,7 +19,20 @@ export default function HomeScreen() {
       }
     >
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Hello!</ThemedText>
+        <ThemedText type="title">
+          Hello,{" "}
+          <ThemedText type="title" onPress={() => Alert.alert("Is stinky")}>
+            Addison{" "}
+          </ThemedText>
+          and
+          <ThemedText
+            type="title"
+            onPress={() => Alert.alert("Eats Laundry detergent")}
+          >
+            {" "}
+            Emry!
+          </ThemedText>
+        </ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
